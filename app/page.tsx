@@ -1157,7 +1157,7 @@ export default function Home() {
           </div>
 
           <a
-            href="/aden.pdf"
+            href="/Aden_Resume.pdf"
             className="hidden items-center gap-2 rounded-full border border-white/15 px-4 py-2 text-sm transition hover:border-pink-400/50 hover:text-pink-300 md:flex"
           >
             Resume <Download size={15} />

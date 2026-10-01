@@ -1158,6 +1158,7 @@ export default function Home() {
 
           <a
             href="/Aden_Resume.pdf"
+            download
             className="hidden items-center gap-2 rounded-full border border-white/15 px-4 py-2 text-sm transition hover:border-pink-400/50 hover:text-pink-300 md:flex"
           >
             Resume <Download size={15} />
@@ -1184,7 +1185,7 @@ export default function Home() {
                   {label}
                 </button>
               ))}
-              <a href="/resume.pdf" className="flex items-center gap-2">
+              <a href="/Aden_Resume.pdf" download className="flex items-center gap-2">
                 Resume <Download size={15} />
               </a>
             </div>
@@ -1231,7 +1232,8 @@ export default function Home() {
               </button>
 
               <a
-                href="/resume.pdf"
+                href="/Aden_Resume.pdf"
+                download
                 className="flex items-center gap-2 rounded-full border border-white/15 px-6 py-3 font-semibold transition hover:border-white/30 hover:bg-white/5"
               >
                 Download CV <Download size={17} />
